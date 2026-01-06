@@ -8,24 +8,23 @@
     <style>
         body {
             font-family: 'Sarabun', sans-serif;
-            background-color: #eceff1; /* พื้นหลังสีเทาฟ้าอ่อน */
+            background-color: #eceff1;
             margin: 0;
-            padding: 20px 10px; /* เพิ่ม padding เล็กน้อย */
+            padding: 20px 10px; 
             display: flex;
             flex-direction: column;
             align-items: center;
         }
 
-        /* กล่องคอนเทนเนอร์หลักเพื่อให้เนื้อหาไม่กว้างจนเกินไป */
         .container {
             width: 100%;
             max-width: 700px;
         }
 
-        /* ส่วนหัวบนสุด */
+
         .top-header {
             font-size: 16px;
-            font-weight: 700; /* ตัวหนา */
+            font-weight: 700; 
             color: #000000;
             text-align: center;
             margin-bottom: 5px;
@@ -33,14 +32,13 @@
 
         .url-text {
             font-size: 12px;
-            color: #9e9e9e; /* สีเทาอ่อน */
+            color: #9e9e9e; 
             text-decoration: none;
             text-align: center;
             display: block;
             margin-bottom: 10px;
         }
 
-        /* เส้นขีดแนวนอน */
         .separator-line {
             width: 100%;
             height: 1px;
@@ -49,7 +47,6 @@
             margin-bottom: 20px;
         }
 
-        /* ส่วนสีม่วง (ขนาด 14px, หนาเล็กน้อย, กึ่งกลาง) */
         .purple-section {
             color: #4B0082;
             font-size: 14px;
@@ -59,42 +56,37 @@
             line-height: 1.6;
         }
 
-        /* ตารางสำหรับจัดข้อมูล (สำคัญสำหรับทำให้ : ตรงกัน) */
         .info-table {
             width: 100%;
             border-collapse: collapse;
-            font-size: 12px; /* ขนาดฟอนต์ 12 ตามกำหนด */
+            font-size: 12px; 
             color: #333333;
         }
 
         .info-table td {
-            padding: 4px 8px; /* ระยะห่างระหว่างบรรทัด */
-            vertical-align: top; /* ให้ข้อความเริ่มที่ด้านบนเสมอ (สำหรับที่อยู่ยาวๆ) */
+            padding: 4px 8px; 
+            vertical-align: top; 
         }
 
-        /* คอลัมน์ซ้าย (หัวข้อ) */
         .col-label {
-            text-align: right; /* ชิดขวาเพื่อให้ไปชนกับ : */
-            width: 45%; /* ความกว้างฝั่งซ้าย */
-            font-weight: 600; /* หนาเล็กน้อย */
-            white-space: nowrap; /* ห้ามตัดคำในหัวข้อ */
+            text-align: right;
+            width: 45%;
+            font-weight: 600; 
+            white-space: nowrap; 
         }
 
-        /* คอลัมน์ขวา (ข้อมูล) */
         .col-value {
-            text-align: left; /* ชิดซ้ายออกจาก : */
-            width: 55%; /* ความกว้างฝั่งขวา */
+            text-align: left;
+            width: 55%; 
         }
         
-        /* สัญลักษณ์ : */
         .colon-sep {
             padding: 4px 5px;
             font-weight: 600;
         }
 
-        /* Responsive สำหรับมือถือ */
         @media (max-width: 500px) {
-            .col-label { white-space: normal; } /* ยอมให้ตัดคำได้ถ้านจอเล็กมาก */
+            .col-label { white-space: normal; } /* 
         }
 
     </style>
